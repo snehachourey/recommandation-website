@@ -49,8 +49,8 @@ const CareerExpectation = () => {
             <div className="option-grid">
               <div className="option-card">💰 High Salary</div>
               <div className="option-card">🏆 Respect</div>
-              <div className="option-card">🛡 Job Security</div>
-              <div className="option-card">❤️ Follow Passion</div>
+              <div className="option-card">❤️ Follow Passion </div>
+              
             </div>
           </div>
 
@@ -65,13 +65,16 @@ const CareerExpectation = () => {
               <div className="option-card">🎓 10+ Years (Medical / Research)</div>
               <div className="option-card">📘 5-7 Years (Engineering / MBA)</div>
               <div className="option-card">💼 Want Job Soon (Diploma / ITI)</div>
+              <div className="option-card">🎓 2-3 years</div>
+              <div className="option-card">📘 3-5 Years </div>
+              <div className="option-card">💼 5+ years</div>
             </div>
           </div>
 
           {/* Question 3 */}
           <div className="question-block">
             <h3>
-              Preferred Sector / पसंदीदा क्षेत्र
+              Preferred Sector / आप किस प्रकार का करियर चाहते है 
               <span>*</span>
             </h3>
 
@@ -80,6 +83,22 @@ const CareerExpectation = () => {
               <div className="option-card">🏛 Government</div>
               <div className="option-card">🚀 Business / Startup</div>
               <div className="option-card">💻 Freelancing</div>
+              <div className="option-card">💻 Note Sure</div>
+            </div>
+          </div>
+
+          {/* Question 3 */}
+          <div className="question-block">
+            <h3>
+             आपकी इनकम  एक्सपेक्टेशन क्या है ?
+              <span>*</span>
+            </h3>
+
+            <div className="option-grid">
+              <div className="option-card">🏢Basic</div>
+              <div className="option-card">🏛 Medium</div>
+              <div className="option-card">High Income</div>
+              <div className="option-card">💻 Luxury Lifestyle</div>
             </div>
           </div>
 

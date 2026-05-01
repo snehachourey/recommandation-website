@@ -68,6 +68,47 @@ const Intrest = () => {
 
         </div>
       </div>
+      
+      {/* Question 3 */}
+      <div className="question-block">
+        <h3>
+        आपअपने फ्री टाइम में  क्या करना पसंद करते है ?
+          <span>*</span>
+        </h3>
+        <p className="hint">
+          Select all that apply / सभी लागू विकल्प चुनें
+        </p>
+
+        <div className="option-grid">
+          <div className="option-card">📱 Reading / Learning</div>
+          <div className="option-card">Gaming</div>
+          <div className="option-card">📚 Waching videos</div>
+          <div className="option-card">⚽ Drawing / Dsign</div>
+          <div className="option-card">⚽ Talking / Socializing</div>
+
+        </div>
+      </div>
+      {/* Question 4 */}
+      <div className="question-block">
+        <h3>
+        आपको किस फील्ड में जिज्ञासा है?
+          <span>*</span>
+        </h3>
+        <p className="hint">
+          Select all that apply / सभी लागू विकल्प चुनें
+        </p>
+
+        <div className="option-grid">
+          <div className="option-card">📱 Technology  Medical Health</div>
+          <div className="option-card">Medical Health</div>
+          <div className="option-card">📚Bussiness / Finance</div>
+          <div className="option-card">⚽ Arts / Creativity</div>
+          <div className="option-card">⚽ Government / Civil Services</div>
+
+        </div>
+      </div>
+
+      
 
       {/* Buttons */}
       <div className="button-row">

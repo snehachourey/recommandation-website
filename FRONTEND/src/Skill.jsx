@@ -32,14 +32,14 @@ const Skill = () => {
       {/* Strengths */}
       <div className="skill-section">
         <h3>
-          Your Strengths / आपकी ताकत <span>*</span>
+          Your Strengths / आपकी  सबसे बड़ी ताकत क्या है  <span>*</span>
         </h3>
         <p className="hint">
           Select all that describe you / जो आपका वर्णन करते हैं सभी को चुनें
         </p>
 
         <div className="skill-grid">
-          <div className="skill-card">🧠 Logical Thinking</div>
+          <div className="skill-card">🧠 Logical / Analytical Thinking</div>
           <div className="skill-card">💬 Communication/Leadership</div>
           <div className="skill-card">🎨 Creativity</div>
           <div className="skill-card">📊 memorization and understanding biology</div>
@@ -53,10 +53,39 @@ const Skill = () => {
         </h3>
 
         <div className="skill-grid small">
-          <div className="skill-card">😍 Problem Solving</div>
+          <div className="skill-card">😍  planner</div>
           <div className="skill-card">😨 Supporter</div>
           <div className="skill-card">😞 leader</div>
-          <div className="skill-card">😞 Idea Creator </div>
+          <div className="skill-card">😞 Executor </div>
+          <div className="skill-card">😞 Observer </div>
+        </div>
+      </div>
+
+      {/* Problem Solving Skill */}
+      <div className="skill-section">
+        <h3>
+           आपका प्रॉब्लम सोल्विंग स्किल कैसा है ? <span>*</span>
+        </h3>
+
+        <div className="skill-grid small">
+          <div className="skill-card">😍  Strong</div>
+          <div className="skill-card">😨  Average</div>
+          <div className="skill-card">😞 Week</div>
+          
+        </div>
+      </div>
+      {/* Communication Skill */}
+      <div className="skill-section">
+        <h3>
+           आपका कम्युनिकेशन स्किल कैसा है ? <span>*</span>
+        </h3>
+
+        <div className="skill-grid small">
+          <div className="skill-card">😍  Excellent</div>
+          <div className="skill-card">😨  Good</div>
+          <div className="skill-card">😞 Average</div>
+          <div className="skill-card">😞 Poor</div>
+          
         </div>
       </div>
 

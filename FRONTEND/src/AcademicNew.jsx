@@ -82,7 +82,19 @@ const AcademicNew = () => {
         </div>
 
         {/* Average Marks */}
-        <label>Free time me tum kya krna pasand karte ho? <span className="Star">*</span></label>
+        <label> आपको कौन से सब्जेक्ट में अच्छे नंबर आते है? <span className="Star">*</span></label>
+        <div className="grid">
+          {[" 🧘Maths ", " ⚡Science", " 🧬Biology", " 📋Commerce"," 🎭 Arts"," 💻 Computer"].map((m) => (
+            <button
+              key={m}
+              className={marks === m ? "active" : ""}
+              onClick={() => setMarks(m)}
+            >
+              {m}
+            </button>
+          ))}
+        </div>
+        {/* <label>? <span className="Star">*</span></label>
         <div className="grid">
           {["logical games/coding ", "Nature health related cheeje", "buisness ideas/money topices", "Drawing writing creativity"].map((m) => (
             <button
@@ -93,7 +105,7 @@ const AcademicNew = () => {
               {m}
             </button>
           ))}
-        </div>
+        </div> */}
 
         {/* Navigation */}
         <div className="actions ">

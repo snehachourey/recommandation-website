@@ -40,15 +40,34 @@ const Personality = () => {
           {/* Question 1 */}
           <div className="question-block">
             <h3>
-             konse subject me tumare marks constantly ache aate h ?
+             आप किस तरह काम करना पसंद करते हैं?
               <span>*</span>
             </h3>
-
+  {/* {["logical games/coding ", "Nature health related cheeje", "buisness ideas/money topices", "Drawing writing creativity"] */}
             <div className="option-grid">
-              <div className="option-card">🧘 Maths</div>
-              <div className="option-card">⚡ Science </div>
-              <div className="option-card">📋 commerse related </div>
-              <div className="option-card">🎭 arts subjecct</div>
+              <div className="option-card">Alone</div>
+              <div className="option-card">Team</div>
+              
+            </div>
+            {/* <div className="option-grid">
+              <div className="option-card">logical games/coding</div>
+              <div className="option-card"> Nature health related cheeje</div>
+              <div className="option-card">buisness ideas/money topices </div>
+              <div className="option-card">Drawing writing creativity</div>
+            </div> */}
+          </div>
+          
+          <div className="question-block">
+            <h3>
+             क्या आप risk लेने में comfortable हैं?
+              <span>*</span>
+            </h3>
+  {/* {["logical games/coding ", "Nature health related cheeje", "buisness ideas/money topices", "Drawing writing creativity"] */}
+            <div className="option-grid">
+              <div className="option-card">Yes</div>
+              <div className="option-card">Sometimes</div>
+              <div className="option-card">No </div>
+             
             </div>
           </div>
 
